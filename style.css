@@ -1,0 +1,35 @@
+html {
+    background: url("https://i.imgur.com/tqlStCr.gif");
+    background-size: cover;
+
+}
+.clock {
+    width: 40rem;
+    height: 40rem;
+    border: 10px solid rgb(57, 141, 57);
+    border-radius: 50%;
+    margin: 50px auto;
+}
+.hand {
+    width: 22%;
+    height: 10px;
+    border: 2px solid rgb(57, 141, 57);
+    border-radius: 20px;
+    background: rgba(57, 141, 57, 0.7);
+    position: absolute;
+    top: 45.5%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.5s;
+    transition-timing-function: ease-in-out;
+}
+.middle {
+    width:10px;
+    height:10px;
+    background: rgb(57, 141, 57);
+    border: 10px solid rgb(57, 141, 57);
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 305px;
+    margin-left: 305px;
+}
